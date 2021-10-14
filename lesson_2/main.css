@@ -1,0 +1,32 @@
+
+.main{
+    border-radius: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    background: #b8ceba;
+    color: #112803;
+    text-align: justify;
+}
+h1,h2{
+    text-align: center;
+}
+p, ul{
+    font-size: 18px;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 300px;
+
+}
