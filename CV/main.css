@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body{
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 .wrap{
@@ -19,8 +22,49 @@ body{
     left: 120px;
     top: 48px;
 }
-p{
+#background{
+    position: absolute;
+    right: 0px;
+}
+#photo{
+    position: absolute;
+    left: 450px;
+}
+.offer{
+    position: absolute;
+    width: 350px;
+    height: 262px;
+    left: 223px;
+    top: 320px;
+    margin-bottom: 48px;
+}
+h1{
+    margin-bottom: 52px;
+}
+#skills{
+    font-weight: normal;
+}
+.button{
+    position: absolute;
+    width: 223px;
+    height: 56px;
+    left: 223px;
+    top: 630px;
+    background: #ED90BA;
+    box-shadow: 0px 14px 20px rgba(226, 117, 166, 0.3);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+#xxx{
+
+    position: absolute;
+    width: 696px;
+    height: 24px;
+    left: 120px;
+    top: 968px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -28,7 +72,8 @@ p{
     line-height: 24px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #1F0F0F;
+    color: #9E7B70;
+
 }
 
 
