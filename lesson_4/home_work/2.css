@@ -1,0 +1,30 @@
+.wrap{
+    width: 1000px;
+    margin: auto;
+}
+#header, #footer{
+    height: 100px;
+    background: #98cc65;
+    margin-bottom: 10px;
+}
+.menu-post{
+    display: flex;
+    margin-bottom: 10px;
+}
+#menu{
+    width: 25%;
+    height: 700px;
+    background: #7b9f22;
+    margin-right: 10px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 75%;
+}
+.post{
+    height: 340px;
+    background: #3f5e0c;
+
+}

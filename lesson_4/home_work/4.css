@@ -1,0 +1,30 @@
+.wrap{
+    width: 1000px;
+    margin: auto;
+}
+.size{
+    width: 1000px;
+    height: 100px;
+  }
+.header{
+    background: #b8ceba;
+}
+.nav{
+    background: #9aab9c;
+}
+.main-aside{
+    display: flex;
+}
+.main{
+    width: 80%;
+    height: 500px;
+    background: #778378;
+}
+.aside{
+    width: 20%;
+    height: 500px;
+    background: #6a726b;
+}
+.footer{
+    background: #545754;
+}

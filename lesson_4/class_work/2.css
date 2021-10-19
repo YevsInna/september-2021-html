@@ -1,0 +1,46 @@
+.wrap {
+    background: #fae4c7;
+    width: 1000px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.box-1 {
+    width: 100%;
+    height: 300px;
+    background: #89c9cb;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.box-4 {
+    display: flex;
+  flex-direction: row;
+    column-gap: 10px;
+
+}
+
+.box {
+    width: 240px;
+    height: 240px;
+    background: #7dacc2;
+    border-radius: 20px;
+}
+.box-5{
+    height: 500px;
+    width: 240px;
+    background: #658a9b;
+    border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+.wrap{
+    width: 700px;
+    margin: auto;
+}
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.box-2{
+    width: 340px;
+    height: 600px;
+    background: #2b7373;
+}
+.box-3{
+    width: 700px;
+    height: 340px;
+    background: #2b7373;
+    margin-bottom: 20px;
+}
+.box-4{
+    display: flex;
+    justify-content: space-between;
+}
+.box-5{
+    width: 220px;
+    height: 340px;
+    background: #2b7373;
+}
