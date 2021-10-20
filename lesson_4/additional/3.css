@@ -1,0 +1,131 @@
+.wrap{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    border: 2px solid silver;
+    border-radius: 10px;
+    background-color: #e9eae9;
+    }
+.header{
+    height: 100px;
+    border-bottom: 2px solid silver;
+}
+.circles{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #f5e4a3;
+    margin-right: 10px;
+}
+.menu{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.menu-1{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #7dacc2;
+}
+.menu-2{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #7dacc2;
+}
+.menu-3{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #c1ebfa;
+}
+.navigation{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+      }
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #7dacc2;
+    margin-right: 100px;
+}
+.nav{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #7dacc2;
+}
+.text{
+    margin: 50px 0px 200px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+   }
+.text-1{
+    width: 400px;
+    height: 50px;
+    background-color: #7dacc2;
+    border-radius: 10px;
+   }
+.text-2{
+    width: 700px;
+    height: 50px;
+    background-color: #7dacc2;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+}
+.input{
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: white;
+    width: 400px;
+    height: 60px;
+}
+.button{
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: #7dacc2;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    left: -50px;
+}
+.description{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+}
+.descr-1{
+    background-color: #7dacc2;
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+}
+.descr-2{
+    background-color: #add5e8;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+}.descr-3{
+    background-color: #add5e8;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
