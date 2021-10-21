@@ -1,6 +1,6 @@
 .wrap {
     width: 1000px;
-    height: 2850px;
+    height: fit-content;
     margin: auto;
     border: 2px solid silver;
     border-radius: 10px;
