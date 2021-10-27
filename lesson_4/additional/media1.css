@@ -1,0 +1,32 @@
+@media screen and (max-width: 400px) {
+   .wrap{
+       width: 400px;
+   }
+    .header-footer{
+        width: 400px;
+        height: 50px;
+    }
+    .main{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .main-left{
+        margin: 0;
+    }
+    .main-content{
+        width: 400px;
+        height: 500px;
+    }
+    .extra-content{
+        width: 400px;
+        height: 200px;
+    }
+    .img{
+        width: 400px;
+        height: 150px;
+
+    }
+    .post{
+        display: none;
+    }
+    }

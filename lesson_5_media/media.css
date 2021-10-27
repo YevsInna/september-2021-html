@@ -1,0 +1,32 @@
+@media screen and (max-width: 400px) {
+    .nav {
+        display: none;
+    }
+
+    .nav__button {
+        display: flex;
+    }
+
+    .novelty__item {
+        flex-direction: column;
+    }
+
+    .novelty__grid {
+        padding: 10px;
+    }
+    .about__grid {
+       flex-direction: column;
+    }
+    .about__card{
+        width: 100%;
+    }
+    .information__grid {
+        flex-direction: column;
+    }
+    .wrapper {
+        padding: 0 10px;
+    }
+    .information_left, .information_right {
+       width: 100%;
+    padding: 10px}
+}

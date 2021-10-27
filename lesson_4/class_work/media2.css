@@ -1,0 +1,26 @@
+@media screen and (max-width: 400px){
+  .wrap{
+      width: 395px;
+      padding: 5px;
+  }
+.box-1{
+    width: 400px;
+    height: 200px;
+}
+.box-2{
+    flex-direction: column;
+    row-gap: 10px;
+    }
+.box-5{
+    width: 400px;
+    height: 100px;
+}
+.box{
+    width: 125px;
+    height: 125px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+}

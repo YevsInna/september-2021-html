@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+.wrap{
+    width: 400px;
+}
+    .box-2{
+        width: 180px;
+        height: 400px;
+    }
+    .box-3 {
+        width: 400px;
+        height: 200px;
+    }
+
+    .box-4{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .box-5{
+        width: 400px;
+        height: 150px;
+    }
+    }

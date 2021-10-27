@@ -1,0 +1,55 @@
+@media screen and (max-width: 400px) {
+    .wrap {
+        width: 400px;
+        margin: 0;
+    }
+
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .side-bar {
+        padding: 5px;
+        width: 15%;
+    }
+
+    .menu-bar {
+        width: 40px;
+        height: 10px;
+    }
+.post-1{
+    height: 100px;
+    width: 300px;
+}
+.card{
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+}
+.middle{
+    flex-direction: column;
+    row-gap: 5px;
+}
+.middle-card{
+    width: 140px;
+    height: 50px;
+}
+
+.right-card{
+    width: 300px;
+}
+
+.footer-1{
+    width: 300px;
+    height: 20px;
+}
+.footer-2{
+    width: 150px;
+    height: 20px;
+}
+}
