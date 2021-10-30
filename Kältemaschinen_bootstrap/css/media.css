@@ -1,0 +1,24 @@
+@media screen and (max-width: 400px) {
+    .first-screen-left h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .second-screen-right-text {
+        margin-top: 39px;
+
+    }
+
+    .third-screen-right img {
+        left: -153px;
+        top: 2601px;
+    }
+.second-screen-right{
+
+    height: 575px;
+}
+.cards{
+    flex-direction: column !important;
+}
+
+}
