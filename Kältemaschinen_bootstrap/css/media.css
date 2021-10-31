@@ -20,5 +20,9 @@
 .cards{
     flex-direction: column !important;
 }
+/*.cards_grid{*/
+/*    margin: 0;*/
+/*}*/
+
 
 }

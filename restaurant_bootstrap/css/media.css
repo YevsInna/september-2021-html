@@ -1,43 +1,49 @@
-@media screen and (max-width: 400px){
-    .header__menu{
-        display: none;
+@media screen and (max-width: 400px) {
+
+    .nav_bar {
+        display: none !important;
     }
-    .header__logo img{
+
+    .logo img {
         width: 40px;
     }
-    .wrapper{
-        max-width: 360px;
-        padding: 0 10px;
-    }
-    .header{
+
+    .header {
         background: url("../image/hero image.png") no-repeat center/cover;
     }
-    .header__top{
+
+    .header__top {
         padding-top: 20px;
     }
-    .nav__btn__mobile{
+
+    .nav__btn__mobile {
         display: flex;
     }
-    .header__title{
+
+    .header__title {
         margin-top: 125px;
         margin-left: 65px;
         width: 276px;
         height: 119px;
     }
-    .header__title h2{
+
+    .header__title h2 {
         font-size: 30px;
         line-height: 34px;
     }
-    .header__title h1{
+
+    .header__title h1 {
         font-size: 40px;
         line-height: 46px;
     }
-    .header__title p{
+
+    .header__title p {
         font-size: 15px;
         line-height: 20px;
     }
+
     .header__title p::before,
-    .header__title p::after{
+    .header__title p::after {
         display: none;
     }
 
@@ -45,39 +51,112 @@
         margin-top: 27px;
         margin-left: 140px;
     }
-.intro{
-    flex-direction: column;
-    row-gap: 14px;
-    position: absolute;
-    width: 290px;
-    height: 857px;
-    left: 35px;
-    top: 500px;
-}
-.our_history{
 
-    margin-top: 500px;
-    margin-left: 65px;
-}
-.our_history__top{
-    display: flex;
-    flex-direction: column;
-    margin-top: 850px;
-}
-.our_history_text{
-    width: 290px;
-    height: 750px;
-}
-.our_history_text h2{
-    font-size: 40px;
-    line-height: 46px;
-}
-    .our_history_items{
+    .intro {
+        flex-direction: column;
+        row-gap: 14px;
+        position: absolute;
+        width: 290px;
+        height: 857px;
+        left: 35px;
+        top: 500px;
+    }
+
+    .our_history {
+
+        margin-top: 500px;
+        margin-left: 65px;
+    }
+
+    .our_history__top {
+        display: flex;
+        flex-direction: column;
+        margin-top: 850px;
+    }
+
+    .our_history_text {
+        width: 290px;
+        height: 750px;
+    }
+
+    .our_history_text h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .our_history_items {
         flex-direction: column;
         row-gap: 22px;
     }
-    .our_history__top img{
+
+    .our_history__top img {
         width: 290px;
         height: 257px;
     }
-  }
+
+    .nav_bar_button {
+        display: block;
+    }
+.header{
+    height: 800px;
+}
+    .header_title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header_title h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header_title p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header_title p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header_title p::before,
+    .header_title p::after{
+        display: none;
+    }
+    .header_title {
+        width: 276px;
+        height: 193px;
+        margin-left: 57px;
+    }
+    .nav_button{
+        width: 137px;
+       margin-left: 70px;
+    }
+    .card{
+        width: 290px;
+        height: 276px;
+    }
+    .intro p{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .intro{
+        left: 57px;
+        top: 698px;
+    }
+.our_history{
+    flex-direction: column;
+    margin-top: 830px;
+    margin-left: 50px;
+}
+
+    .our_history h2{
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+.our_history img{
+    width: 290px;
+    height: 257px;
+}
+
+}
