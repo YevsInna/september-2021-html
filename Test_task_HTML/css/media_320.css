@@ -1,0 +1,47 @@
+@media screen and (max-width: 320px){
+
+    .header_part{
+    display: none;
+}
+
+    .schedule{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+
+.mobil_header{
+    display: flex;
+}
+    .logo {
+        width: 135px;
+        height: 47px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

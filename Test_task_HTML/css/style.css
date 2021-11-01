@@ -1,0 +1,401 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.all_site {
+    max-width: 1920px;
+}
+
+.dark {
+    background-color: #0F2438;
+}
+
+.blue {
+    background-color: #005BB9;
+}
+
+.white {
+    color: white;
+}
+
+.header {
+    height: 36px;
+}
+
+.container {
+    max-width: 1354px;
+}
+
+.header_part {
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+li:nth-child(7) {
+    padding-right: 0;
+}
+
+.header_contacts {
+    box-sizing: border-box;
+    padding-top: 20px;
+    height: 196px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    width: 292px;
+    height: 83px;
+}
+
+.logo img {
+    width: 73px;
+    height: 83px;
+}
+
+.schedule {
+    width: 280px;
+    height: 40px;
+}
+
+.schedule img {
+    width: 32px;
+    height: 32px;
+}
+
+.address {
+    width: 169px;
+    height: 32px;
+}
+
+.address img {
+    width: 32px;
+    height: 32px;
+}
+
+.WhatsApp {
+    box-sizing: border-box;
+    padding-top: 8px;
+    width: 204px;
+    height: 30px;
+    background: #E1EFD0;
+    border-radius: 2px;
+}
+
+.WhatsApp p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.WhatsApp img {
+    width: 12px;
+    height: 12px;
+}
+
+.phone {
+    width: 200px;
+    height: 40px;
+}
+
+.phone:nth-child(1) {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.header_contacts_bottom {
+    margin-top: 20px;
+}
+
+.header_contacts button {
+    border: none;
+    width: 164px;
+    height: 53px;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.input-group {
+    width: 649px;
+    height: 53px;
+
+}
+
+.mb-3 {
+    margin-bottom: 0 !important;
+}
+
+.input-group input {
+    background: #F4F5FA;
+    border-radius: 6px 0px 0px 6px
+}
+
+.input-group button {
+    width: 101px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.header_contacts_icons {
+    width: 455px;
+    height: 32px;
+}
+
+.contact_icon {
+    border-right: 1px solid #E1E5F8;;
+}
+
+.contact_icon:nth-child(3) {
+    border-right: none;
+}
+
+.contact_icon img {
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+}
+
+.contact_icon p {
+    margin-right: 25px;
+}
+
+#carouselExampleIndicators {
+    border-radius: 20px;
+    width: 950px;
+    height: 390px;
+    background: url("../pictures/Mask Group.png");
+}
+
+.carousel-item img {
+    width: 417px;
+!important;
+    height: 356px;
+!important;
+}
+
+.carousel-item h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+
+.main_offer {
+    margin-top: 30px;
+}
+
+.action_card {
+    width: 336px;
+    height: 190px;
+    background: #F4F5FA;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+}
+
+.action_card_left {
+    margin-right: 15px;
+}
+
+.fs_14 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fs_14_dark {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+
+}
+
+.fs_16 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.fs_12 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+
+.fs_20 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.fs_24 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A1A2C;
+}
+
+.orange {
+    color: #FFB800;
+}
+
+.silver {
+    color: #B0B0B0;
+}
+
+.action_card_right button {
+    width: 57px;
+    height: 49px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 32px;
+}
+
+.cards_slider {
+    margin: 70px 0;
+
+}
+
+.slide {
+    width: 431px;
+    height: 184px;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 0 30px 30px;
+}
+
+.slide_text button {
+    border: none;
+    width: 86px;
+    height: 26px;
+    border-radius: 4px;
+}
+.main_card{
+    width: 316px;
+    height: 418px;
+}
+.main_card_img{
+    width: 276px;
+    height: 222px;
+
+}
+.main_card_bottom{
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.main_card_bottom button{
+    border: none;
+    width: 160px;
+    height: 49px;
+    border-radius: 6px;
+}
+.main_card_bottom img{
+    width: 21px;
+    height: 21px;
+}
+.discount{
+    width: 39px;
+    height: 20px;
+   background: #FFB800;
+    border-radius: 2px;
+}
+.cards_line{
+    column-gap: 30px;
+    margin-bottom: 80px;
+}
+.main_buttons{
+    margin-bottom: 30px;
+}
+.main_buttons button{
+    border: none;
+    margin-right: 20px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 16px 32px;
+}
+.btn_style{
+    background-color: white;
+    color: #005BB9;
+}
+.m_left{
+    margin-left: 570px;
+}
+.news_posts{
+    margin-top: -24px;
+}
+.news hr{
+    width: 1920px;
+    height: 9px;
+    background: #e3e1e1;
+}
+.post{
+    width: 314px;
+    height: 245px;
+}
+.footer{
+    height: fit-content;
+    margin-top: 120px;
+    padding: 36px 0 85px 0;
+}
+.footer_infos{
+    column-gap: 90px;
+}
+.payment{
+    margin-top: 45px;
+}
+.grey{
+    color: #868DAC;
+}
+.footer_contacts{
+    margin-left: 132px;
+}
+.footer_contacts img{
+    margin: 27px 0 0 218px;
+}
+.contacts{
+    margin-bottom: 32px;
+}
+.box{
+    width: 240px;
+    height: 71px;
+}
+#footer_input{
+
+    width: 470px;
+    height: 40px;
+}
+#button-addon3{
+    width: 177px;
+    border: none;
+}
+#footer_input input{
+    border: 1px solid #203246;
+    background-color: #0F2438;
+}
+.mobil_header p{
+    font-size: 12px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
