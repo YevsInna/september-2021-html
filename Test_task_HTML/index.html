@@ -23,9 +23,9 @@
 <div class="all_site">
 
     <div class="header dark white w-100">
-        <div class="container">
+        <div class="wrapper">
 
-            <div class="header_menu d-flex justify-content-between">
+            <div class="header_menu d_f between">
                 <div class="header_part">
                     <ul>
                         <li><img src="icons/placeholder%201%20(2).png" alt="">Ваш город: <span
@@ -54,14 +54,12 @@
         </div>
     </div>
 
-
     <div class="header_contacts">
+        <div class="wrapper">
 
-        <div class="container">
+            <div class="header_contacts_top d_f between">
 
-            <div class="header_contacts_top d-flex justify-content-between align-items-sm-center">
-
-                <div class="logo d-flex justify-content-between">
+                <div class="logo d_f between">
                     <img src="pictures/logo.png" alt="logo">
                     <div>
                         <p>AVT-ZAP</p>
@@ -69,57 +67,87 @@
                     </div>
                 </div>
 
-                <div class="schedule d-flex justify-content-between d-sm-none">
+                <div class="schedule d_f between">
                     <img src="icons/time%20(1)%201.png" alt="clock">
                     <p>Мы работаем: будни - 9:00-21:00 <br>сб. - 10:00-15:00</p>
                 </div>
 
-                <div class="address d-flex justify-content-between d-sm-none">
+                <div class="address d_f between">
                     <img src="icons/placeholder%201.png" alt="geolocation">
                     <p>пр-т Шевченка, 9</p>
                 </div>
 
-                <div class="WhatsApp d-flex justify-content-evenly">
+                <div class="WhatsApp d_f evenly">
                     <img src="icons/whatsapp%20(2)%201.png" alt="WhatsApp">
-                    <p>Напишите нам в WhatsApp</p>
+                    <p class="fs_12">Напишите нам в WhatsApp</p>
                 </div>
 
-                <div class="phone align-items-sm-center justify-content-end">
+                <div class="phone align-items-center justify-content-end">
                     <p><span class="fw-bold">+7 383 291 92 86</span> <br> <span class="text-decoration-underline">форма обратной связи</span>
                     </p>
                 </div>
 
             </div>
 
-            <div class="header_contacts_bottom d-flex justify-content-between align-items-center">
+            <div class="header_contacts_mobile d_f between">
+                <img src="pictures/logo_mobil.png" alt="logo">
+                <div class="header_contacts_mobile_right">
+                    <div class="phone_mobile align-items-center justify-content-end">
+                        <p><span class="fw-bold number">+7 383 291 92 86</span> <br> <span
+                                class="text-decoration-underline">форма обратной связи</span>
+                        </p>
+                    </div>
+                    <img src="pictures/Group%20838.png" alt="whatsap">
+                </div>
+
+            </div>
+
+            <div class="header_contacts_bottom d_f between">
                 <button class="blue white">Каталог</button>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу"
                            aria-label="Recipient's username" aria-describedby="button-addon2">
                     <button class="btn btn-outline-secondary blue white" type="button" id="button-addon2">Найти</button>
                 </div>
-                <div class="header_contacts_icons d-flex">
-                    <div class="contact_icon d-flex">
+                <div class="header_contacts_icons d_f">
+                    <div class="contact_icon d_f">
                         <img src="icons/user%20(3)%201.png" alt="icon_user">
                         <p>Войти</p>
                     </div>
-                    <div class="contact_icon d-flex">
+                    <div class="contact_icon d_f">
                         <img src="icons/hart.png" alt="icon_hart">
                         <p>Избранное</p>
                     </div>
-                    <div class="contact_icon d-flex">
+                    <div class="contact_icon d_f">
                         <img src="icons/cart.png" alt="icon_cart">
                         <p>В корзине нет товаров</p>
                     </div>
                 </div>
             </div>
 
+            <div class="header_contacts_bottom_mobile">
+                <div class="header_mobile_button d_f">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="input_mobile d_f">
+                    <div class="input_mobile_left">
+                        <p class="fs_12">Поиск по наименованию...</p>
+                    </div>
+                    <div class="input_mobile_right">
+                        <img src="icons/search%20(2)%201.png" alt="search">
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <div class="main_content container">
+    <div class="main_content wrapper">
 
-        <div class="main_offer d-flex justify-content-between">
+        <div class="main_offer d_f between">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -134,8 +162,8 @@
                         <div class="offer_description">
                             <h1>Сцепление в сборе</h1>
                             <p>0AMCLUTCH</p>
-                            <p><span class="price">14 499,99 $        </span> <span
-                                    class="text-decoration-line-through">18 550,99 $</span></p>
+                            <p><span class="price">14 499,99 $</span> <span class="text-decoration-line-through">18 550,99 $</span>
+                            </p>
                             <button class="blue white">В корзину</button>
                         </div>
                         <img src="pictures/avt-zap_main_page_v01%20(1)%201.png" class="d-block" alt="main_picture">
@@ -156,7 +184,7 @@
             </div>
             <div class="actions">
 
-                <div class="action_card d-flex align-items-center">
+                <div class="action_card d_f">
                     <div class="action_card_left">
                         <p class="fs_14_dark">Акция</p>
                         <img src="pictures/mufta.png" alt="mufta">
@@ -171,6 +199,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="action_card d-flex align-items-center">
                     <div class="action_card_left">
                         <p class="fs_14_dark">Акция</p>
@@ -186,10 +215,44 @@
                         </div>
                     </div>
                 </div>
+
+            </div>
+            <div class="actions_mobile d_f">
+                <div class="action_card_mobile d_f">
+                    <div class="action_card_left_mobile">
+                        <p class="fs_12 fw-bold">Акция</p>
+                        <img src="pictures/mufta.png" alt="mufta">
+                    </div>
+                    <div class="action_card_right_mobile">
+                        <p class="fs_12 fw-bold">Обгонная муфта гидротрансформатор</p>
+                        <p class="fs_12">BW-SP-2 SONNAX</p>
+                        <div class="d_f">
+                            <p class="fs_14 orange">4 430$ <span class="text-decoration-line-through silver fs_14">5 430$</span>
+                            </p>
+                            <button class="blue"><img src="icons/white_cart.png" alt="cart"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="action_card_mobile d_f">
+                    <div class="action_card_left_mobile">
+                        <p class="fs_12 fw-bold">Акция</p>
+                        <img src="pictures/mufta.png" alt="mufta">
+                    </div>
+                    <div class="action_card_right_mobile">
+                        <p class="fs_12 fw-bold">Обгонная муфта гидротрансформатор</p>
+                        <p class="fs_12">BW-SP-2 SONNAX</p>
+                        <div class="d_f">
+                            <p class="fs_14 orange">4 430$ <span class="text-decoration-line-through silver fs_14">5 430$</span>
+                            </p>
+                            <button class="blue"><img src="icons/white_cart.png" alt="cart"></button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="cards_slider d-flex justify-content-between">
+        <div class="cards_slider d_f between">
 
             <div class="slide d-flex align-items-center justify-content-between">
                 <div class="slide_text">
@@ -218,16 +281,28 @@
                 <img src="pictures/radiator.png" alt="radiator">
             </div>
 
-
         </div>
 
-        <div class="main_buttons d-flex">
+        <div class="cards_slider_mobile">
+            <div class="slide_mobile d_f between">
+                <div class="slide_text">
+                    <p class="fs_14 fw-bold">Масла</p>
+                    <p class="fs_12 fw-bold">Трансмиссионное масло; <br>присалка в масло акпп</p>
+                    <button class="blue white fs_12">Перейти</button>
+                </div>
+                <img src="pictures/oil.png" alt="oil">
+            </div>
+            <img class="mobil_arrow" src="icons/arrow_right.png" alt="arrow">
+        </div>
+
+        <div class="main_buttons d_f">
             <button class="blue white fw-bold">Подборки товаров</button>
             <button class="btn_style fw-bold">Акции</button>
             <button class="btn_style fw-bold">Сейчас покупают</button>
         </div>
 
-        <div class="cards_grid d-flex justify-content-between">
+        <div class="cards_grid d_f between">
+
             <div class="cards_grid_part">
                 <div class="cards_line d-flex justify-content-between">
                     <div class="main_card">
@@ -239,7 +314,7 @@
                         <div class="main_card_bottom d-flex align-items-center mt-4">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
                     <div class="main_card">
@@ -250,12 +325,12 @@
                         <p class="fs_14"><span class="orange fw-bold"> <img src="icons/Star%202.png"
                                                                             alt="star">4,5</span> 10 отзывов</p>
                         <p class="fs_20">Комплект фрикционных дисков</p>
-                        <p class="fs_12 orange fs_20">4 430$ <span class="text-decoration-line-through fs_16 silver">5 430$</span>
+                        <p class="fs_12 orange fs_20">4 430$ <span class="text-decoration-line-through fs_16 silver xx">5 430$</span>
                         </p>
                         <div class="main_card_bottom d-flex align-items-center">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
                 </div>
@@ -269,7 +344,7 @@
                         <div class="main_card_bottom d-flex align-items-center mt-4">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
                     <div class="main_card">
@@ -280,16 +355,17 @@
                         <p class="fs_14"><span class="orange fw-bold"> <img src="icons/Star%202.png"
                                                                             alt="star">4,5</span> 10 отзывов</p>
                         <p class="fs_20">Комплект фрикционных дисков</p>
-                        <p class="fs_12 orange fs_20">4 430$ <span class="text-decoration-line-through fs_16 silver">5 430$</span>
+                        <p class="fs_12 orange fs_20">4 430$ <span class="text-decoration-line-through fs_16 silver xx">5 430$</span>
                         </p>
                         <div class="main_card_bottom d-flex align-items-center">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="cards_grid_part">
                 <div class="cards_line d-flex justify-content-between">
                     <div class="main_card">
@@ -301,7 +377,7 @@
                         <div class="main_card_bottom d-flex align-items-center mt-4">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
 
@@ -316,7 +392,7 @@
                         <div class="main_card_bottom d-flex align-items-center mt-4">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
                 </div>
@@ -330,7 +406,7 @@
                         <div class="main_card_bottom d-flex align-items-center mt-4">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
 
@@ -345,14 +421,14 @@
                         <div class="main_card_bottom d-flex align-items-center mt-4">
                             <button class="blue white">В корзину</button>
                             <img src="icons/hart.png" alt="hart">
-                            <img src="icons/Group%20147.png" alt="icon">
+                            <img class="xxx" src="icons/Group%20147.png" alt="icon">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="main_buttons m_left">
+        <div class="show_more">
             <button class="btn_style fw-bold">Показать еще</button>
         </div>
 
@@ -361,20 +437,26 @@
     <div class="news">
         <p class="fs_24 container">НОВОСТИ</p>
         <hr>
-        <div class="news_posts container d-flex justify-content-between">
-            <div class="post">
-                <img src="pictures/3_november.png" alt="3.11">
+        <div class="news_posts wrapper d_f between">
+            <div class="post d_f">
+                <div class="date d_f">
+                    <img src="icons/Frame%204.png" alt="3.11">
+                    <button class="btn_date dark white">3 ноября</button>
+                </div>
                 <p class="text-decoration-underline text-primary fs_16">Изменения на сайте</p>
-                <p class="fs_16">Недавно на сайте мы ввели <br>
-                    очередную порцию изменений, <br>
-                    которые, как нам кажется, должны <br>
-                    улучшить функциональность сайта <br>
-                    и сделать его более удобным для <br>
-                    пользователей. Реакция посетителей <br>
+                <p class="fs_16">Недавно на сайте мы ввели
+                    очередную порцию изменений,
+                    которые, как нам кажется, должны
+                    улучшить функциональность сайта
+                    и сделать его более удобным для
+                    пользователей. Реакция посетителей
                     не заставила себя долго ждать...</p>
             </div>
-            <div class="post">
-                <img src="pictures/2_november.png" alt="2.11">
+            <div class="post d_f">
+                <div class="date d_f">
+                    <img src="icons/Frame%204.png" alt="3.11">
+                    <button class="btn_date dark white">2 ноября</button>
+                </div>
                 <p class="text-decoration-underline text-primary fs_16">Вышла новая версия для
                     мобильных приложений</p>
                 <p class="fs_16">Что нового в 2.0: <br>
@@ -382,8 +464,11 @@
                     — добавлена синхронизация с сервером;<br>
                     — испрвление ошибок.</p>
             </div>
-            <div class="post">
-                <img src="pictures/1_november.png" alt="1.11">
+            <div class="post d_f">
+                <div class="date d_f">
+                    <img src="icons/Frame%204.png" alt="3.11">
+                    <button class="btn_date dark white">1 ноября</button>
+                </div>
                 <p class="text-decoration-underline text-primary fs_16">Очередная порция обновлений для
                     мобильных приложений</p>
                 <p class="fs_16">Что нового добавлено: <br>
@@ -393,21 +478,22 @@
                     — возможность поиска; <br>
                     — исправление ошибок.</p>
             </div>
-            <div class="post">
-                <img src="pictures/1_november.png" alt="1.11">
+            <div class="post d_f">
+                <div class="date d_f">
+                    <img src="icons/Frame%204.png" alt="3.11">
+                    <button class="btn_date dark white">31 октября</button>
+                </div>
                 <p class="text-decoration-underline text-primary fs_16">Интерфейс заказов для покупателей
                     стал более функциональным</p>
                 <p class="fs_16">Он позволяет выводить все
-                    формируемые системой <br>
-                    уведомления(e-mail, смс, web) в <br>
-                    едином окне с системой удобной
+                    формируемые системой уведомления(e-mail, смс, web) в едином окне с системой удобной
                     фильтрации поиска.</p>
             </div>
         </div>
     </div>
 
     <div class="footer dark white">
-        <div class="footer_infos container d-flex">
+        <div class="footer_infos wrapper">
             <div class="footer_ifo">
                 <p class="fs_16 grey">КАТАЛОГ</p>
                 <p>Масла</p>
@@ -444,7 +530,7 @@
 
             </div>
             <div class="footer_contacts">
-                <div class="contacts d-flex">
+                <div class="contacts">
                     <div class="footer_ifo box">
                         <p class="fs_16 grey">КОНТАКТЫ</p>
                         <p>+7 383 291 92 86 <br> info@avt-zap.ru</p>
@@ -455,7 +541,7 @@
                             пр-тШевченка,9, офис 105</p>
                     </div>
                 </div>
-                <p><span class="grey">Мы онлайн, воспользуйтесь</span> Форма обратной связи</p>
+                <p><span class="grey">Мы онлайн, воспользуйтесь</span> <br>Форма обратной связи</p>
                 <p class="grey">Подпишитесь на нашу расслыку и <br>
                     вы первыми узнаете о скидках и акциях</p>
                 <div id="footer_input" class="input-group mb-3">
@@ -467,6 +553,8 @@
                 <img src="icons/Frame%203.png" alt="contacts_icons">
             </div>
         </div>
+        <hr>
+        <p class="grey footer_text wrapper">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
     </div>
 
 </div>

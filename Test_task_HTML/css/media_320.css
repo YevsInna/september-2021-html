@@ -1,47 +1,270 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
-    .header_part{
-    display: none;
-}
+    .wrapper {
+        max-width: 290px;
+        margin: auto;
+    }
 
-    .schedule{
+    .header_part {
         display: none;
     }
-    .address{
+
+    .header_contacts_top {
         display: none;
     }
 
-.mobil_header{
-    display: flex;
-}
-    .logo {
-        width: 135px;
-        height: 47px;
+    .header_contacts {
+        height: 140px;
     }
 
+    .main_offer {
+        margin-top: 15px;
+    }
 
+    .logo_mobile img {
+        display: block;
+    }
 
+    .header_contacts_mobile {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .header_contacts_bottom {
+        display: none;
+    }
 
+    .header_contacts_bottom_mobile {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .mobil_header {
+        display: flex;
+    }
 
+    #carouselExampleIndicators {
+        width: 290px;
+        height: 195px;
+    }
 
+    .carousel-item img {
+        width: 118px;
+        height: 100px;
+    }
 
+    .offer_description h1 {
+        font-size: 16px;
+        line-height: 19px;
+    }
 
+    .offer_description p {
+        font-size: 10px;
+        line-height: 12px;
+    }
 
+    .price {
+        font-size: 20px;
+        line-height: 23px;
+    }
 
+    .slide {
+        padding: 15px 0 10px 10px;
+    }
 
+    .main_offer {
+        flex-direction: column;
+    }
 
+    .offer_description button {
+        border: none;
+        width: 124px;
+        height: 34px;
+        border-radius: 6px;
+    }
 
+    .actions {
+        display: none;
+    }
 
+    .actions_mobile {
+        display: flex;
+        margin-left: 0;
+    !important;
+    }
 
+    .cards_slider {
+        display: none;
+    }
 
+    .cards_slider_mobile {
+        display: flex;
+        align-items: center;
 
+    }
 
+    .main_buttons button {
+        box-sizing: border-box;
+        margin-right: 10px;
+        height: 36px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
 
+    .main_buttons button:nth-child(3) {
+        display: none;
+    }
 
+    .main_buttons {
+        margin: 30px 0 15px 0;
+    }
 
+    .cards_grid {
+        flex-direction: column;
+    }
 
+    .cards_line {
+        height: 266px;
+    }
 
+    .main_card {
+        width: 138px;
+        height: 266px;
+    }
 
+    .main_card_img {
+        width: 138px;
+        height: 120px;
+    }
+
+    .main_card_img img {
+        width: 138px;
+        height: 120px;
+        margin-bottom: 2px;
+    }
+
+    main_card_bottom img {
+        width: 17px;
+        height: 14px;
+    }
+
+    .xxx {
+        display: none;
+    }
+
+    .xx {
+        font-size: 12px;
+    }
+
+    .main_card p {
+        font-size: 12px;
+    }
+
+    .discount {
+        width: 32px;
+        height: 16px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .main_card_bottom button {
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .show_more {
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+
+    .show_more button {
+        width: 160px;
+        height: 34px;
+        border: 2px solid #005BB9;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-size: 12px;
+
+    }
+
+    .news hr {
+        display: none;
+    }
+
+    .news_posts {
+        flex-direction: column;
+    }
+
+    .post {
+        margin-left: 15px;
+        margin-bottom: 20px;
+        height: fit-content;
+    }
+
+    .date img {
+        display: none;
+    }
+
+    .post p {
+        font-size: 12px;
+    }
+
+    .footer {
+        margin-top: 0px;
+    }
+
+    .footer_infos {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer_ifo p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    !important;
+    }
+
+    .contacts {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer_contacts {
+        margin-left: 0px;
+    }
+
+    .footer_contacts p {
+        font-size: 14px;
+    }
+
+    #footer_input {
+        width: 290px;
+        height: 34px;
+    }
+
+    #footer_input input {
+        font-size: 12px;
+    }
+
+    #button-addon3 {
+        width: 104px;
+        font-size: 12px;
+    }
+
+    .footer_contacts img {
+        margin: 27px 0 0 0;
+    }
+
+    .footer_text {
+        font-size: 12px;
+    }
+
+    .footer hr {
+        display: block;
+    }
+
+    .footer {
+        padding: 25px 0 15px 15px;
+    }
 }

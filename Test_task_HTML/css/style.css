@@ -1,11 +1,26 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-
+    padding: 0;
+    margin: 0;
 }
+
 
 .all_site {
     max-width: 1920px;
+}
+
+.d_f {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.evenly {
+    justify-content: space-evenly;
 }
 
 .dark {
@@ -24,8 +39,9 @@
     height: 36px;
 }
 
-.container {
+.wrapper {
     max-width: 1354px;
+    margin: auto;
 }
 
 .header_part {
@@ -39,13 +55,13 @@ li {
 
 ul li {
     display: inline;
-    padding-right: 30px;
+    margin-right: 30px;
     font-weight: 500;
     font-size: 14px;
 }
 
 li:nth-child(7) {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .header_contacts {
@@ -94,14 +110,15 @@ li:nth-child(7) {
     border-radius: 2px;
 }
 
-.WhatsApp p {
-    font-size: 12px;
-    line-height: 14px;
-}
 
 .WhatsApp img {
     width: 12px;
     height: 12px;
+    margin-bottom: 8px;
+}
+
+.WhatsApp p {
+    margin-top: 8px;
 }
 
 .phone {
@@ -171,6 +188,74 @@ li:nth-child(7) {
     margin-right: 25px;
 }
 
+.header_contacts_mobile {
+    display: none;
+    width: 290px;
+    height: 58px;
+
+}
+
+header_contacts_mobile img {
+    width: 135px;
+    height: 47px;
+}
+
+.header_contacts_mobile_right {
+    width: 132px;
+    height: 58px;
+}
+
+.phone_mobile p {
+    margin: 0;
+!important;
+    font-size: 10px;
+}
+
+.number {
+    font-size: 14px;
+}
+
+.header_contacts_bottom_mobile {
+    margin-top: 15px;
+    display: none;
+}
+
+.header_mobile_button {
+    width: 34px;
+    height: 34px;
+    background: #005BB9;
+    border-radius: 4px;
+    flex-direction: column;
+    row-gap: 4px;
+    justify-content: center;
+}
+
+.line {
+    width: 20px;
+    height: 2px;
+    background: #FFFFFF;
+}
+
+.input_mobile_left {
+    box-sizing: border-box;
+    padding: 10px 42px 10px 10px;
+    width: 203px;
+    height: 34px;
+    background: #F4F5FA;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.input_mobile_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background: #005BB9;
+    border-radius: 0px 4px 4px 0px;
+
+}
+
 #carouselExampleIndicators {
     border-radius: 20px;
     width: 950px;
@@ -215,6 +300,72 @@ li:nth-child(7) {
 .action_card_left {
     margin-right: 15px;
 }
+
+.actions_mobile {
+    display: none;
+    margin-top: 10px;
+}
+
+.action_card_mobile {
+    width: 250px;
+    height: 145px;
+    background: #F4F5FA;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 0 15px 15px;
+    margin-right: 10px;
+}
+
+.action_card_left_mobile {
+    margin-right: 15px;
+}
+
+.action_card_left_mobile img {
+    width: 58px;
+    height: 54px;
+}
+
+.action_card_right_mobile button {
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 27px;
+}
+
+.cards_slider_mobile {
+    display: none;
+    margin-top: 20px;
+}
+
+.slide_mobile {
+    width: 250px;
+    height: 126px;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.slide_mobile button {
+    width: 72px;
+    height: 24px;
+    background: #005BB9;
+    border-radius: 4px;
+    color: white;
+}
+
+.slide_mobile img {
+    width: 74px;
+    height: 97px;
+}
+
+.mobil_arrow {
+    width: 30px;
+    height: 30px;
+}
+
 
 .fs_14 {
     font-size: 14px;
@@ -272,7 +423,6 @@ li:nth-child(7) {
 
 .cards_slider {
     margin: 70px 0;
-
 }
 
 .slide {
@@ -290,43 +440,52 @@ li:nth-child(7) {
     height: 26px;
     border-radius: 4px;
 }
-.main_card{
+
+.main_card {
     width: 316px;
     height: 418px;
 }
-.main_card_img{
+
+.main_card_img {
     width: 276px;
     height: 222px;
 
 }
-.main_card_bottom{
+
+.main_card_bottom {
     column-gap: 20px;
     margin-top: 20px;
 }
-.main_card_bottom button{
+
+.main_card_bottom button {
     border: none;
     width: 160px;
     height: 49px;
     border-radius: 6px;
 }
-.main_card_bottom img{
+
+.main_card_bottom img {
     width: 21px;
     height: 21px;
 }
-.discount{
+
+.discount {
     width: 39px;
     height: 20px;
-   background: #FFB800;
+    background: #FFB800;
     border-radius: 2px;
 }
-.cards_line{
+
+.cards_line {
     column-gap: 30px;
     margin-bottom: 80px;
 }
-.main_buttons{
+
+.main_buttons {
     margin-bottom: 30px;
 }
-.main_buttons button{
+
+.main_buttons button {
     border: none;
     margin-right: 20px;
     height: 55px;
@@ -335,67 +494,126 @@ li:nth-child(7) {
     border-radius: 6px;
     padding: 16px 32px;
 }
-.btn_style{
+
+.btn_style {
     background-color: white;
     color: #005BB9;
 }
-.m_left{
+
+.show_more {
     margin-left: 570px;
+    margin-bottom: 30px;
 }
-.news_posts{
+
+.show_more button {
+    border: none;
+    margin-right: 20px;
+    width: 187px;
+    height: 49px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+.news_posts {
     margin-top: -24px;
 }
-.news hr{
+
+.news hr {
     width: 1920px;
     height: 9px;
     background: #e3e1e1;
 }
-.post{
+
+.post {
     width: 314px;
     height: 245px;
+    flex-direction: column;
+    align-items: start;
 }
-.footer{
+
+.date {
+    flex-direction: column;
+    width: fit-content;
+}
+
+.btn_date {
+    width: 130px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 1px 18px;
+}
+
+.footer {
     height: fit-content;
     margin-top: 120px;
     padding: 36px 0 85px 0;
 }
-.footer_infos{
+
+.footer_infos {
+    display: flex;
     column-gap: 90px;
 }
-.payment{
+
+.payment {
     margin-top: 45px;
 }
-.grey{
+
+.grey {
     color: #868DAC;
 }
-.footer_contacts{
+
+.footer_contacts {
     margin-left: 132px;
 }
-.footer_contacts img{
+
+.footer_contacts img {
     margin: 27px 0 0 218px;
 }
-.contacts{
+
+.contacts {
+    display: flex;
     margin-bottom: 32px;
 }
-.box{
+
+.box {
     width: 240px;
     height: 71px;
 }
-#footer_input{
 
+#footer_input {
     width: 470px;
     height: 40px;
 }
-#button-addon3{
+
+#button-addon3 {
     width: 177px;
     border: none;
 }
-#footer_input input{
+
+#footer_input input {
     border: 1px solid #203246;
     background-color: #0F2438;
 }
-.mobil_header p{
+
+.footer_text {
+    font-size: 16px;
+    margin-top: 47px;
+}
+
+.mobil_header p {
     font-size: 12px;
     margin-right: 15px;
     margin-top: 10px;
+}
+
+.footer hr {
+    width: 320px;
+    height: 2px;
+    background: #2d455e;
+    display: none;
+    margin-top: 23px;
 }
