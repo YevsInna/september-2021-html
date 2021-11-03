@@ -454,8 +454,7 @@ header_contacts_mobile img {
 
 .main_card_bottom {
     column-gap: 20px;
-    margin-top: 20px;
-}
+ }
 
 .main_card_bottom button {
     border: none;
